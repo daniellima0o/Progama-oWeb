@@ -21,3 +21,5 @@ target : abrir em nova guia
 ajuste de imagem só em porcentagem
 <width> largura da imagem(porcentagem da tela)
 <pre> exibe o texto exatamente como está no código
+<align> alinhamento do texto
+<style> tudo vira css
