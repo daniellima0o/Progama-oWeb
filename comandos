@@ -1,0 +1,17 @@
+<p/> paragráfo
+<div/> divisão(separar conteudo)
+<body/>
+<head/>
+<meta/>
+<title/>
+<b/> negrito tradicional
+<strong/> negrito adaptado
+<i/> itálico
+<em/> itálico adaptado
+<u/> sublinhado
+<s/>taxado
+<>tag aberta
+</>tag fechada
+observar a tag q irei mais longe(a mais presente)
+<!-->
+<br> quebra de linha
