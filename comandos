@@ -10,6 +10,7 @@
 <em/> itálico adaptado
 <u/> sublinhado
 <s/>taxado
+<h> vai de 1 a 6 (titulos)
 <>tag aberta
 </>tag fechada
 observar a tag q irei mais longe(a mais presente)
@@ -18,6 +19,7 @@ observar a tag q irei mais longe(a mais presente)
 &nbsp espaço
 <a> hyperlink
 target : abrir em nova guia
+# move dentro da pagina
 ajuste de imagem só em porcentagem
 <width> largura da imagem(porcentagem da tela)
 <pre> exibe o texto exatamente como está no código
