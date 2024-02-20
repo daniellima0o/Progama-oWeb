@@ -13,7 +13,7 @@
 <>tag aberta
 </>tag fechada
 observar a tag q irei mais longe(a mais presente)
-<!-->
+<!--> comentario
 <br> quebra de linha
 &nbsp espaço
 <a> hyperlink
@@ -23,3 +23,6 @@ ajuste de imagem só em porcentagem
 <pre> exibe o texto exatamente como está no código
 <align> alinhamento do texto
 <style> tudo vira css
+<ul> marcação fromas 
+<ol> marcação numeral
+<li> lista
