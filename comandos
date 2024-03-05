@@ -1,5 +1,7 @@
 <p/> paragráfo
 <div/> divisão(separar conteudo)primeira div sempre container(geralmente xxl)
+    cow: linhas
+    col: colunas
 <body/>
 <head/>
 <meta/>
