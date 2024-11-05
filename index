@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+</head>
+<body>
+<div class="card ms-5 me-5 mt-5">
+    <ul class="nav nav-tabs" id="myTab" role="tablist" style="background-color: #c4c4c4">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="dadosPessoais-tab" data-bs-toggle="tab" href="#dadosPessoais" role="tab" aria-controls="dadosPessoais" aria-selected="true" style="color: black">Dados Pessoais</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="dadosResidenciais-tab" data-bs-toggle="tab" href="#dadosResidenciais" role="tab" aria-controls="dadosResidenciais" aria-selected="false" style="color: black">Dados Residenciais</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="dadosAcademicos-tab" data-bs-toggle="tab" href="#dadosAcademicos" role="tab" aria-controls="dadosAcademicos" aria-selected="false" style="color: black">Dados Academicos</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="dadosPessoais" role="tabpanel" aria-labelledby="home-tab">
+            <div class="row mt-3">
+                <div class="col-7 ms-3">
+                    <input type="text" class="form-control" placeholder="Nome completo">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="CPF">
+                </div>
+                <div class="col-2 me-3">
+                    <input type="date" class="form-control" placeholder="dd/mm/aaaa">
+                </div>
+            </div>
+            <div class="row mt-3 mb-3">
+                <div class="col-6 ms-3">
+                    <input type="text" class="form-control" placeholder="Email">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Celular">
+                </div>
+                <div class="col">
+                    <select class="form-select" id="sexo">
+                        <option selected>Gênero</option>
+                        <option value="1">Masculino</option>
+                        <option value="2">Feminino</option>
+                        <option value="3">Indefinido</option>
+                    </select>
+                </div>
+                <div class="col me-3">
+                    <select class="form-select" id="estadoCivil">
+                        <option selected>Estado Civil</option>
+                        <option value="1">Solteiro(a)</option>
+                        <option value="2">Namorando</option>
+                        <option value="3">Casado(a)</option>
+                        <option value="3">Viúvo(a)</option>
+                        <option value="3">Divorciado(a)</option>
+                        <option value="3">Separado(a)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="dadosResidenciais" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="row mt-3">
+                <div class="col ms-3">
+                    <input type="text" class="form-control" placeholder="CEP">
+                </div>
+                <div class="col-8">
+                    <input type="text" class="form-control" placeholder="Logradouro">
+                </div>
+                <div class="col me-3">
+                    <input type="text" class="form-control" placeholder="Número">
+                </div>
+            </div>
+            <div class="row mt-3 mb-3">
+                <div class="col-3 ms-3">
+                    <input type="text" class="form-control" placeholder="Complemento">
+                </div>
+                <div class="col-3">
+                    <input type="text" class="form-control" placeholder="Bairro">
+                </div>
+                <div class="col-3 me-3">
+                    <input type="text" class="form-control" placeholder="Cidade">
+                </div>
+                <div class="col me-3">
+                    <select class="form-select" id="estado">
+                        <option selected>Estado</option>
+                        <option value="1">Mato Grosso</option>
+                        <option value="2">Mato Grosso do Sul</option>
+                        <option value="3">Goiás</option>
+                        <option value="3">Brasília</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="dadosAcademicos" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="row mt-3">
+                <div class="col ms-3">
+                    <input type="text" class="form-control" placeholder="Número da Matrícula">
+                </div>
+                <div class="col-8 me-3">
+                    <input type="text" class="form-control" placeholder="Nome da Faculdade">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-7 ms-3">
+                    <input type="text" class="form-control" placeholder="Nome do Curso">
+                </div>
+                <div class="col-2">
+                    <select class="form-select" id="semestre">
+                        <option selected>Semestre</option>
+                        <option value="1">1° Semestre</option>
+                        <option value="2">2° Semestre</option>
+                        <option value="3">3° Semestre</option>
+                        <option value="4">4° Semestre</option>
+                        <option value="5">5° Semestre</option>
+                        <option value="6">6° Semestre</option>
+                        <option value="7">7° Semestre</option>
+                        <option value="8">8° Semestre</option>
+                        <option value="9">9° Semestre</option>
+                        <option value="10">10° Semestre</option>
+                    </select>
+                </div>
+                <div class="col me-3">
+                    <select class="form-select" id="periodo">
+                        <option selected>Período</option>
+                        <option value="1">Matutino</option>
+                        <option value="2">Vespertino</option>
+                        <option value="3">Integral</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mt-3 mb-3">
+                <div class="col-6 d-grid ms-3">
+                    <button type="submit" class="btn btn-outline-danger">Cancelar</button>
+                </div>
+                <div class="col d-grid me-3">
+                    <button type="submit" class="btn btn-outline-success">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/bootstrap.js"></script>
+<script src="js/popper.js"></script>
+</body>
+</html>
